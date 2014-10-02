@@ -1,0 +1,6 @@
+/bin
+/pkg
+/src
+
+.DS_Store
+Thumbs.db
