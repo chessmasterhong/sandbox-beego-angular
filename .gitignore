@@ -1,6 +1,13 @@
-/bin
-/pkg
-/src
+/bin/
+/pkg/
+/src/*
+!/src/myApp/
+
+*.bat
+*.lnk
+
+*.exe
+*.log
 
 .DS_Store
 Thumbs.db
