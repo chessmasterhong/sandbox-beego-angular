@@ -1,5 +1,8 @@
 {
   "name": "myApp",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "angular": "~1.2.26",
+    "angular-ui-router": "~0.2.11"
+  }
 }
