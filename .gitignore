@@ -2,6 +2,7 @@
 /pkg/
 /src/*
 !/src/myApp/
+/src/myApp/static/vendor/
 
 *.bat
 *.lnk
