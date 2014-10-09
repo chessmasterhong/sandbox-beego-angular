@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en-US" data-ng-app="myApp" data-ng-controller="siteController">
     <head>
         <meta charset="utf-8">
 
-        <title>Beego</title>
+        <title data-ng-bind="siteTitle"></title>
 
         <link rel="stylesheet" href="static/css/style.css">
+
+        <script src="static/vendor/angular/angular.js"></script>
+        <script src="static/js/myApp.js"></script>
+        <script src="static/js/siteController.js"></script>
     </head>
 
     <body>
