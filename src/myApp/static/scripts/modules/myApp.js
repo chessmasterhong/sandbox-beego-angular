@@ -1,12 +1,17 @@
-var myApp = angular.module('myApp', [
-    'ui.router'
-])
-.config(function($stateProvider) {
+define([
+    'angular',
+    'uiRouter',
+], function(angular) {
     'use strict';
 
-    $stateProvider
-        .state('home', {
-            url: '',
-            templateUrl: 'static/scripts/modules/home/home.partial.html'
-        });
+    return angular.module('app', [
+        'ui.router'
+    ])
+    .config(function($stateProvider) {
+        $stateProvider
+            .state('home', {
+                url: '',
+                templateUrl: 'static/scripts/modules/home/home.partial.html'
+            });
+    });
 });
