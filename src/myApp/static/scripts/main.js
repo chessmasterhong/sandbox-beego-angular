@@ -4,8 +4,8 @@ require.config({
         angular: './vendor/angular/angular',
         uiRouter: './vendor/angular-ui-router/release/angular-ui-router',
 
-        app: './scripts/modules/myApp',
-        routes: './scripts/modules/common/routes'
+        app: './scripts/myApp',
+        routes: './scripts/config/routes'
     },
     shim: {
         angular: { exports: 'angular' },
