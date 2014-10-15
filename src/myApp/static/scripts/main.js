@@ -5,7 +5,8 @@ require.config({
         uiRouter: './vendor/angular-ui-router/release/angular-ui-router',
 
         app: './scripts/myApp',
-        routes: './scripts/config/routes'
+        config: './scripts/config',
+        modules: './scripts/modules'
     },
     shim: {
         angular: { exports: 'angular' },
@@ -17,7 +18,7 @@ define([
     'require',
     'angular',
     'app',
-    'routes'
+    'config/routes'
 ], function(require, angular) {
     'use strict';
 

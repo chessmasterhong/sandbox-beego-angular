@@ -1,5 +1,9 @@
-myApp.controller('siteController', function($scope) {
+define([
+    'config/controllers/module'
+], function(controllers) {
     'use strict';
 
-    $scope.siteTitle = 'My App';
+    controllers.controller('siteController', function($scope) {
+        $scope.siteTitle = 'My App';
+    });
 });
