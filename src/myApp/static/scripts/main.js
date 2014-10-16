@@ -2,6 +2,7 @@ require.config({
     baseUrl: './static/',
     paths: {
         angular: './vendor/angular/angular',
+        domReady: './vendor/requirejs-domready/domready',
         uiRouter: './vendor/angular-ui-router/release/angular-ui-router',
 
         app: './scripts/myApp',
@@ -17,9 +18,10 @@ require.config({
 define([
     'require',
     'angular',
+    'domReady!',
     'app',
     'config/routes'
-], function(require, angular) {
+], function(require, angular, document) {
     'use strict';
 
     angular.bootstrap(document, ['app']);
