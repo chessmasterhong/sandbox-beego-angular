@@ -3,6 +3,7 @@ require.config({
     paths: {
         angular: './vendor/angular/angular',
         domReady: './vendor/requirejs-domready/domready',
+        ionic: './vendor/ionic/release/js/ionic.bundle',
         uiRouter: './vendor/angular-ui-router/release/angular-ui-router',
 
         app: './scripts/myApp',
@@ -11,6 +12,7 @@ require.config({
     },
     shim: {
         angular: { exports: 'angular' },
+        ionic: { deps: ['angular', 'uiRouter'] },
         uiRouter: { deps: ['angular'] }
     }
 });
