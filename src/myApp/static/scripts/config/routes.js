@@ -11,7 +11,11 @@ define([
             })
             .state('main.home', {
                 url: '',
-                templateUrl: 'static/scripts/modules/home/home.partial.html'
+                views: {
+                    'menuContent': {
+                        templateUrl: 'static/scripts/modules/home/home.partial.html'
+                    }
+                }
             });
     });
 });
