@@ -7,13 +7,13 @@ define([
         $stateProvider
             .state('main', {
                 abstract: 'true',
-                templateUrl: 'static/scripts/modules/common/sidebar.partial.html'
+                templateUrl: 'static/partials/sidebar.partial.html'
             })
             .state('main.home', {
                 url: '',
                 views: {
                     'menuContent': {
-                        templateUrl: 'static/scripts/modules/home/home.partial.html'
+                        templateUrl: 'static/partials/home.partial.html'
                     }
                 }
             });
