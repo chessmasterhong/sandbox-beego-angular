@@ -4,6 +4,7 @@
   "dependencies": {
     "angular": "~1.2.26",
     "angular-ui-router": "~0.2.11",
+    "d3": "~3.4.13",
     "ionic": "~0.9.27",
     "requirejs": "~2.1.15",
     "requirejs-domready": "~2.0.1"
