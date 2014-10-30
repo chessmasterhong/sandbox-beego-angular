@@ -2,6 +2,7 @@ require.config({
     baseUrl: './static/',
     paths: {
         angular: './vendor/angular/angular',
+        d3: './vendor/d3/d3.js',
         domReady: './vendor/requirejs-domready/domready',
         ionic: './vendor/ionic/release/js/ionic.bundle',
         uiRouter: './vendor/angular-ui-router/release/angular-ui-router',
