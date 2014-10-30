@@ -3,6 +3,7 @@ define([
     'ionic',
     'uiRouter',
     'config/controllers/index'
+    //'config/directives/index'
 ], function(angular) {
     'use strict';
 
@@ -10,6 +11,7 @@ define([
         'ionic',
         'ui.router',
         'app.controllers'
+        //'app.directives'
     ])
     .run(function($ionicPlatform) {
         $ionicPlatform.ready(function() {
