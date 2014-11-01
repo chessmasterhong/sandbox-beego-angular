@@ -16,6 +16,14 @@ define([
                         templateUrl: 'static/partials/home.partial.html'
                     }
                 }
+            })
+            .state('main.about', {
+                url: '/about',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'static/partials/about.partial.html'
+                    }
+                }
             });
     });
 });
