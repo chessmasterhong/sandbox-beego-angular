@@ -24,6 +24,14 @@ define([
                         templateUrl: 'static/partials/about.partial.html'
                     }
                 }
+            })
+            .state('main.help', {
+                url: '/help',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'static/partials/help.partial.html'
+                    }
+                }
             });
     });
 });
