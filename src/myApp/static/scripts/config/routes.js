@@ -12,25 +12,34 @@ define([
             .state('main.home', {
                 url: '',
                 views: {
-                    'menuContent': {
+                    menuContent: {
                         templateUrl: 'static/partials/home.partial.html'
                     }
+                },
+                data: {
+                    pageTitle: 'Home'
                 }
             })
             .state('main.about', {
                 url: '/about',
                 views: {
-                    'menuContent': {
+                    menuContent: {
                         templateUrl: 'static/partials/about.partial.html'
                     }
+                },
+                data: {
+                    pageTitle: 'About'
                 }
             })
             .state('main.help', {
                 url: '/help',
                 views: {
-                    'menuContent': {
+                    menuContent: {
                         templateUrl: 'static/partials/help.partial.html'
                     }
+                },
+                data: {
+                    pageTitle: 'Help'
                 }
             });
     });
