@@ -1,3 +1,4 @@
 define([
-    'modules/common/siteController'
+    'modules/common/headController',
+    'modules/common/bodyController'
 ], function() {});

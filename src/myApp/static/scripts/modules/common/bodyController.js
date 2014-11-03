@@ -3,9 +3,7 @@ define([
 ], function(controllers) {
     'use strict';
 
-    controllers.controller('siteController', function($scope) {
-        $scope.siteTitle = 'My App';
-
+    controllers.controller('bodyController', function($scope) {
         $scope.$on('$stateChangeSuccess', function(event, toState) {
             $scope.pageTitle = toState.data.pageTitle;
         });
